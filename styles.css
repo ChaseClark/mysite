@@ -2,28 +2,63 @@ body {
     margin: auto;
     padding: 70px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: mediumvioletred;
+    color: #e56e6a;
     background-color: dimgray;
     background-image: url(images/background.png);
     background-size: contain;
     background-position: center;
-    background-attachment:fixed;
-    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+/*---HEADER SECTION---*/
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0; padding: 0;
+}
+
+
 /* class for all small images */
-.small-img{
+
+.small-img {
     height: 30%;
     width: 30%;
 }
+
+
 /* wrapper div used for centering body content */
-#wrapper{
+
+#wrapper {
     text-align: center;
     margin: auto;
-    background-color: hsla(0, 100%, 95%, .9);
-    width: 80%;
+    background-color: hsla(0, 0%, 95%, .9);
+    width: 95%;
     padding: 20px 0;
     box-shadow: 5px 5px 5px black;
 }
-ul{
+/* ---NAV SECTION--- */
+nav li {
+    padding: 0px 10px;
+    display: inline;
     list-style-type: none;
+}
+
+nav li a {
+    color: darkslategray;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:focus,a:hover,a:active {
+    color: #e56e6a;
 }
