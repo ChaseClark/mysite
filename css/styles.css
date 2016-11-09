@@ -40,8 +40,8 @@ hr{
 /* class for all small images */
 
 .small-img {
-    height: 30%;
-    width: 30%;
+    height: auto;
+    max-width: 100%;
 }
 
 
