@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 1.3em;
-    color: #e56e6a;
+    color: darkslategray;
     background-color: dimgray;
     background-image: url(../images/background.png);
     background-size: contain;
@@ -15,6 +15,7 @@ body {
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px 0;
+    color: #e56e6a;
 }
 
 h1 {
@@ -93,3 +94,11 @@ ul.topnav li.icon {
     display: none;
 }
 
+label{
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    margin: 5px;
+}
