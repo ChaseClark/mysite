@@ -94,11 +94,31 @@ ul.topnav li.icon {
     display: none;
 }
 
-label{
-    text-align: right;
-    margin-right: 10px;
+ul.services {
+    text-align: left;
 }
 
+ul.services li{
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+form{
+    display: inline-block;
+    width: 50%;
+}
 input {
-    margin: 5px;
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+input[type="submit"] {
+    width: 30%;
+    height: 40px;
+    text-decoration: none;
+    background-color: #e56e6a;
+    color: white;
+    font-size:1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
