@@ -98,7 +98,7 @@ ul.topnav li a {
     padding: 14px 16px;
     font-size: 1.5em;
     text-decoration: none;
-    transition: 0.3s;
+    transition: background-color .5s linear;
 }
 
 ul.topnav li a:hover,ul.topnav li a:active,ul.topnav li a:focus {
